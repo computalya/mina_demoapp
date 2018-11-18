@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: mina_demoapp_production
-  username: mina_demoapp
+  username: deploy
   password: <%= ENV['MINA_DEMOAPP_DATABASE_PASSWORD'] %>
